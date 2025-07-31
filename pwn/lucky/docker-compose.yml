@@ -1,0 +1,9 @@
+version: '3'
+services:
+    lottery:
+        container_name: lucky
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "15252:15252"
