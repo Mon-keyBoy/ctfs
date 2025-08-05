@@ -13,7 +13,7 @@ def get_random(length, seed):
 
 def main():
         HOST = "verbal-sleep.picoctf.net"
-        PORT = 57979 
+        PORT = 52865 
         for i in range(0, 5000):
             if (i % 50 == 0):
                 p = remote(HOST,PORT)
